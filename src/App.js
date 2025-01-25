@@ -48,7 +48,7 @@ function App() {
                 <button>Dodaj film</button>
             </form>
 
-            
+
             <MovieForm onMovieSubmit={(movie) => setMovies([...movies, movie])}/>
 
 
@@ -57,3 +57,4 @@ function App() {
 }
 
 export default App;
+
